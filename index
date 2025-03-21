@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jaykinggraphics | Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a1a;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e60000;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      animation: slideDown 1s ease;
+    }
+
+    .navbar .logo img {
+      height: 50px;
+      width: auto;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar ul li {
+      margin-left: 2rem;
+    }
+
+    .navbar ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      color: #ffcccc;
+      transform: translateY(-2px);
+    }
+
+    header {
+      background-color: #e60000;
+      color: #fff;
+      padding: 4rem 1rem;
+      text-align: center;
+      animation: fadeIn 1.5s ease;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3.5rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 0.8rem;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .subtext {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+
+    .auth-buttons {
+      margin-top: 2rem;
+    }
+
+    .auth-buttons a {
+      display: inline-block;
+      margin: 0 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #fff;
+      color: #e60000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .auth-buttons a:hover {
+      background-color: #ffcccc;
+      color: #1a1a1a;
+    }
+
+    .section {
+      padding: 5rem 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 1s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .section.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h2 {
+      color: #ff1a1a;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .about p {
+      font-size: 1.3rem;
+      line-height: 1.8;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #ccc;
+    }
+
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .portfolio a {
+      background-color: #262626;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+      text-decoration: none;
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+
+    .portfolio a:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.7);
+    }
+
+    .portfolio img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .portfolio a:hover img {
+      transform: scale(1.05);
+    }
+
+    .portfolio p {
+      color: #fff;
+      padding: 1rem;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    .reviews {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .review {
+      background-color: #262626;
+      color: #ccc;
+      padding: 1.5rem;
+      border-radius: 12px;
+      width: 300px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+      text-align: left;
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+
+    .review:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.7);
+    }
+
+    .review h3 {
+      color: #ff1a1a;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact {
+      text-align: center;
+      margin-top: 5rem;
+    }
+
+    .contact a {
+      color: #ff1a1a;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+      display: inline-block;
+      margin: 0.5rem;
+    }
+
+    .contact a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #e60000;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 5rem;
+      animation: fadeIn 1.5s ease;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">
+        <img src="logo.png" alt="Jaykinggraphics Logo">
+      </a>
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#faqs">FAQs</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header id="home">
+    <h1>Welcome to Jaykinggraphics</h1>
+    <p>A Professional Graphic Designer</p>
+    <p class="subtext">We are the simplest platform to generate quality leads for your brand and business and also earn passive income daily.</p>
+    <div class="auth-buttons">
+      <a href="#signup">Sign Up</a>
+      <a href="#login">Login</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <h2>About Me</h2>
+    <p>
+      Welcome to Jaykinggraphics! I'm a professional graphic designer specializing in branding, visual identity, and stunning flyer designs. I create bold and impactful visuals that make brands stand out.
+    </p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="s
