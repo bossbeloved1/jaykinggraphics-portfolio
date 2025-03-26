@@ -3,185 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uphoria-Inspired Homepage</title>
-    <style>
-        /* Global Styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        body {
-            background: #121212;
-            color: white;
-            text-align: center;
-        }
-
-        /* Header & Navigation */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 5%;
-            background: #1a1a1a;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .logo {
-            font-size: 26px;
-            font-weight: bold;
-            color: #00bcd4;
-        }
-
-        .nav-links {
-            list-style: none;
-            display: flex;
-        }
-
-        .nav-links li {
-            margin: 0 15px;
-        }
-
-        .nav-links li a {
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .nav-links li a:hover {
-            color: #00bcd4;
-        }
-
-        /* Hamburger Menu */
-        .menu-toggle {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-        }
-
-        .menu-toggle div {
-            width: 30px;
-            height: 3px;
-            background: white;
-            margin: 5px;
-            transition: 0.3s;
-        }
-
-        /* Mobile Menu */
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-                flex-direction: column;
-                position: absolute;
-                top: 60px;
-                left: 0;
-                width: 100%;
-                background: #1a1a1a;
-                text-align: center;
-                padding: 20px 0;
-            }
-
-            .nav-links.active {
-                display: flex;
-            }
-
-            .menu-toggle {
-                display: flex;
-            }
-        }
-
-        /* Hero Section */
-        .hero {
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
-            padding: 20px;
-        }
-
-        .hero h1 {
-            font-size: 48px;
-            max-width: 700px;
-            font-weight: bold;
-        }
-
-        .hero p {
-            font-size: 20px;
-            max-width: 500px;
-            margin: 15px 0;
-            opacity: 0.8;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 12px 25px;
-            margin-top: 20px;
-            background: #00bcd4;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background: #008c9e;
-        }
-
-        /* Footer */
-        footer {
-            padding: 20px;
-            background: #1a1a1a;
-            text-align: center;
-            margin-top: 30px;
-        }
-    </style>
+    <title>Homepage UI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-
-    <!-- Header with Hamburger Menu -->
+    <!-- Header -->
     <header>
         <div class="logo">Uphoria</div>
         <nav>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <div class="menu-toggle" onclick="toggleMenu()">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+        <div class="hamburger">&#9776;</div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <h1>Unlock Your Digital Potential</h1>
-        <p>Join a community of innovators and creators. Shape the future with Uphoria.</p>
-        <a href="#" class="btn">Get Started</a>
+        <h1>Welcome to Uphoria</h1>
+        <p>Your perfect design partner</p>
+        <a href="#" class="cta-btn">Get Started</a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <h2>Feature One</h2>
+            <p>High-quality design solutions</p>
+        </div>
+        <div class="feature">
+            <h2>Feature Two</h2>
+            <p>Modern and minimalistic UI</p>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Uphoria. All rights reserved.</p>
+        <p>© 2025 Uphoria. All rights reserved.</p>
     </footer>
-
-    <script>
-        function toggleMenu() {
-            document.querySelector(".nav-links").classList.toggle("active");
-        }
-    </script>
-
 </body>
 </html>
