@@ -1,297 +1,504 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jaykinggraphics | Portfolio</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+--ph7YD0oJFXdkqazcsjtAaFQHWqycAq6lyu7rIq4RKi----
+Content-Type: text/html
+Content-ID:
+<frame-8ffc33ae926ed27ffa06fbc7ef780625@mhtml.blink>
+ Content-Transfer-Encoding: binary
+Content-Location: https://uphoria.pro/
+ <!DOCTYPE html>
+ <html>
+  <head>
+   <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+   <link href="cid:css-e92c4fe9-0523-4094-b85a-f4d2a40cacdc@mhtml.blink" rel="stylesheet" type="text/css"/>
+   <link href="cid:css-dc773824-1ddb-4387-9fd7-683e9221976e@mhtml.blink" rel="stylesheet" type="text/css"/>
+   <link href="cid:css-10cb527c-0297-43f4-b3ef-2d6aab48e38f@mhtml.blink" rel="stylesheet" type="text/css"/>
+   <!-- Google tag (gtag.js) -->
+   <title>
+    Uphoria
+   </title>
+   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+   <link href="https://uphoria.pro/css/style.css" rel="stylesheet" type="text/css"/>
+   <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" referrerpolicy="no-referrer" rel="stylesheet"/>
+  </head>
+  <body class="dark-theme" id="root">
+   <header class="site-header home-header">
+    <div class="top-bar">
+     <a class="logo" href="https://uphoria.pro/">
+      <img alt="" src="https://uphoria.pro/assets/img/logo.png"/>
+      <h2>
+       Uphoria
+      </h2>
+     </a>
+     <div class="site-nav">
+      <nav class="menu-content">
+       <div class="nav-logo">
+        <img alt="" src="https://uphoria.pro/assets/img/logo.png"/>
+        <!-- <span>Uphoria</span> -->
+       </div>
+       <ul class="menu-links">
+        <li>
+         <a href="https://uphoria.pro/">
+          Home
+         </a>
+        </li>
+        <li>
+         <a href="https://uphoria.pro/post/about-us">
+          Dashboard
+         </a>
+        </li>
+        <li>
+         <a href="https://uphoria.pro/top-earners">
+          Earners
+         </a>
+        </li>
+        <li>
+         <a href="https://uphoria.pro/coupon-vendors">
+          Coupon Vendors
+         </a>
+        </li>
+        <li>
+         <a href="https://uphoria.pro/coupon">
+          Coupon
+         </a>
+        </li>
+        <li>
+         <a href="https://uphoria.pro/market-place">
+          Digital assest
+         </a>
+        </li>
+       </ul>
+       <ul class="auth-menu">
+        <li>
+         <a href="https://uphoria.pro/signin">
+          <img alt="" src="https://uphoria.pro/assets/img/signup-img.png"/>
+         </a>
+        </li>
+       </ul>
+      </nav>
+     </div>
+     <div class="toggle-menu">
+      <span>
+      </span>
+     </div>
+    </div>
+   </header>
+   <div class="site-wrapper">
+    <!-- wrapper -->
+    <!-- container-->
+    <div class="container">
+     <div class="home-page">
+      <!-- Hero Section -->
+      <div class="hero-wrapper">
+       <div class="hero-content">
+        <div class="text-content">
+         <h2>
+          A New Dawn
+          <br/>
+          <span>
+           in Digital Empowerment
+          </span>
+         </h2>
+         <p>
+          Step into the future with Uphoria — a platform designed to revolutionize the networking and financial space. Uphoria isn’t just a platform; it’s a community, a movement, and an ecosystem where opportunities, value, and technology meet. Join the thousands already building their paths to success with Uphoria!
+         </p>
+         <div class="actions">
+          <a href="https://uphoria.pro/signup">
+           <span>
+            Get Started
+           </span>
+          </a>
+         </div>
+        </div>
+        <div class="img-content">
+         <img alt="" src="https://uphoria.pro/assets/img/hero-img.png"/>
+        </div>
+       </div>
+      </div>
+      <!-- Trusted Section -->
+      <div class="trusted-wrapper">
+       <div class="trusted-content">
+        <h2>
+         Trusted By
+        </h2>
+        <ul>
+         <li>
+          Facebook
+         </li>
+         <li>
+          youtube
+         </li>
+         <li>
+          Tiktok
+         </li>
+         <li>
+          Whatsapp
+         </li>
+        </ul>
+       </div>
+      </div>
+      <!-- Features Section -->
+      <div class="features-wrapper">
+       <div class="features-content">
+        <ul>
+         <li>
+          <img alt="" src="https://uphoria.pro/assets/img/feature/feature-1-img.png"/>
+          <h3>
+           Skills Acquisition
+          </h3>
+          <span>
+           We offer a wide range of professional courses and interactive resources to help you master high-demand skills and achieve personal growth.
+          </span>
+         </li>
+         <li>
+          <img alt="" src="https://uphoria.pro/assets/img/feature/feature-2-img.png"/>
+          <h3>
+           Ebooks
+          </h3>
+          <span>
+           Become an author and take charge of your earnings by promoting your eBooks, gaining 90% of the value from each sale maximizing your profit while sharing your knowledge with a wide audience.
+          </span>
+         </li>
+         <li>
+          <img alt="" src="https://uphoria.pro/assets/img/feature/feature-3-img.png"/>
+          <h3>
+           Social media monetization
+          </h3>
+          <span>
+           Monetize your social media presence by sharing content, engaging with followers, and participating in platform-sponsored campaigns, providing a consistent income stream through reward
+          </span>
+         </li>
+         <li>
+          <img alt="" src="https://uphoria.pro/assets/img/feature/feature-4-img.png"/>
+          <h3>
+           Digital Assets
+          </h3>
+          <span>
+           Create, buy, sell, and trade unique digital items such as NFT providing an exciting opportunity to engage in the growing world of blockchain-based assets while gaining financial and non-financial benefits.
+          </span>
+         </li>
+         <li>
+          <img alt="" src="https://uphoria.pro/assets/img/feature/feature-5-img.png"/>
+          <h3>
+           E-Ventures
+          </h3>
+          <span>
+           A dynamic marketplace that allows users to buy, sell, and trade digital products, services, and resources, creating a vibrant ecosystem for entrepreneurs and creators to thrive.
+          </span>
+         </li>
+         <li>
+          <img alt="" src="https://uphoria.pro/assets/img/feature/feature-1-img.png"/>
+          <h3>
+           and More
+          </h3>
+          <span>
+           Uphoria also offers a range of other powerful features, including access to  BrainQuest for rewarding learning experiences, a team-building platform, and tools to go viral while yoy monetize your socials
+          </span>
+         </li>
+        </ul>
+        <div class="meta">
+         <div class="img-wrapper">
+          <img alt="" src="https://uphoria.pro/assets/img/feature/feature-meta-img.png"/>
+         </div>
+         <div class="text-content">
+          <p>
+           With Uphoria, you get more than just a membership; you gain access to direct sales and incentives, High-Income Skills, connection with like-minded individuals across the globe.  
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #1a1a1a;
-      color: #fff;
-      scroll-behavior: smooth;
-    }
-
-    /* Navbar Styles */
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #e60000;
-      padding: 1rem 2rem;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      animation: slideDown 1s ease;
-    }
-
-    .navbar .logo img {
-      height: 50px;
-      width: auto;
-    }
-
-    .navbar ul {
-      list-style: none;
-      display: flex;
-      margin: 0;
-      padding: 0;
-    }
-
-    .navbar ul li {
-      margin-left: 2rem;
-    }
-
-    .navbar ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 1rem;
-      font-weight: 500;
-      transition: color 0.3s ease, transform 0.3s ease;
-    }
-
-    .navbar ul li a:hover {
-      color: #ffcccc;
-      transform: translateY(-2px);
-    }
-
-    header {
-      background-color: #e60000;
-      color: #fff;
-      padding: 4rem 1rem;
-      text-align: center;
-      animation: fadeIn 1.5s ease;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 3.5rem;
-      letter-spacing: 2px;
-    }
-
-    header p {
-      margin-top: 0.8rem;
-      font-size: 2rem;
-      font-weight: bold;
-    }
-
-    .subtext {
-      margin-top: 1rem;
-      font-size: 1.2rem;
-      color: #fff;
-    }
-
-    .auth-buttons {
-      margin-top: 2rem;
-    }
-
-    .auth-buttons a {
-      display: inline-block;
-      margin: 0 0.5rem;
-      padding: 0.75rem 1.5rem;
-      background-color: #fff;
-      color: #e60000;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 5px;
-      transition: background-color 0.3s ease, color 0.3s ease;
-    }
-
-    .auth-buttons a:hover {
-      background-color: #ffcccc;
-      color: #1a1a1a;
-    }
-
-    .section {
-      padding: 5rem 1rem;
-      max-width: 1200px;
-      margin: 0 auto;
-      opacity: 0;
-      transform: translateY(20px);
-      transition: all 1s ease;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .section.show {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    h2 {
-      color: #ff1a1a;
-      font-size: 2.5rem;
-      margin-bottom: 2rem;
-      text-align: center;
-    }
-
-    .about p {
-      font-size: 1.3rem;
-      line-height: 1.8;
-      text-align: center;
-      max-width: 800px;
-      margin: 0 auto;
-      color: #ccc;
-    }
-
-    .portfolio {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 2rem;
-      margin-top: 3rem;
-      width: 100%;
-      justify-content: center;
-    }
-
-    .portfolio a {
-      background-color: #262626;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.5);
-      text-decoration: none;
-      transition: transform 0.4s, box-shadow 0.4s;
-    }
-
-    .portfolio a:hover {
-      transform: translateY(-8px) scale(1.03);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.7);
-    }
-
-    .portfolio img {
-      width: 100%;
-      height: auto;
-      display: block;
-      transition: transform 0.4s ease;
-    }
-
-    .portfolio a:hover img {
-      transform: scale(1.05);
-    }
-
-    .portfolio p {
-      color: #fff;
-      padding: 1rem;
-      font-size: 1.1rem;
-      text-align: center;
-    }
-
-    .reviews {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2rem;
-      margin-top: 3rem;
-    }
-
-    .review {
-      background-color: #262626;
-      color: #ccc;
-      padding: 1.5rem;
-      border-radius: 12px;
-      width: 300px;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.5);
-      text-align: left;
-      transition: transform 0.4s, box-shadow 0.4s;
-    }
-
-    .review:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 12px 30px rgba(0,0,0,0.7);
-    }
-
-    .review h3 {
-      color: #ff1a1a;
-      margin-bottom: 0.5rem;
-    }
-
-    .contact {
-      text-align: center;
-      margin-top: 5rem;
-    }
-
-    .contact a {
-      color: #ff1a1a;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s ease;
-      display: inline-block;
-      margin: 0.5rem;
-    }
-
-    .contact a:hover {
-      color: #fff;
-      text-decoration: underline;
-    }
-
-    footer {
-      background-color: #e60000;
-      color: #fff;
-      text-align: center;
-      padding: 2rem 1rem;
-      margin-top: 5rem;
-      animation: fadeIn 1.5s ease;
-    }
-
-    /* Animations */
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    @keyframes slideDown {
-      from {
-        opacity: 0;
-        transform: translateY(-50px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-  </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
-
-  <!-- Navbar Section -->
-  <nav class="navbar">
-    <div class="logo">
-      <a href="#">
-        <img src="logo.png" alt="Jaykinggraphics Logo">
+Uphoria is built with trust, reliability, and consistent rewards in mind
+          </p>
+          <a href="https://uphoria.pro/#">
+           Get Started
+          </a>
+         </div>
+        </div>
+        <div class="pricing">
+         <h4>
+          Pricing
+         </h4>
+         <p>
+          Prepare to elevate your financial journey with a platform that prioritizes your growth and success.
+          <br/>
+          Uphoria offers tailored packages designed for everyone
+          <br/>
+          Our Packages below: Align with the one that suits you
+         </p>
+        </div>
+       </div>
+      </div>
+      <!-- Offers Section -->
+      <div class="offers-wrapper">
+       <div class="offers-content">
+        <h2>
+         Packages
+        </h2>
+        <ul>
+         <li>
+          <h3>
+           1. LITE Package
+          </h3>
+          <p>
+           <br/>
+           - A personalized user account
+           <br/>
+           - Complete networking access
+           <br/>
+           - Full access to skills and courses
+           <br/>
+           - Unlimited entry to the E-Venture Marketplace
+           <br/>
+           - Complete access to social media monetization tools
+           <br/>
+           - No access to the Team feature
+           <br/>
+           - Full access to Ebooks
+           <br/>
+           <br/>
+           Unlock opportunities and take charge of your journey!
+          </p>
+          <a href="https://uphoria.pro/#">
+           Get Started
+          </a>
+         </li>
+         <li>
+          <h3>
+           2. plus Package
+          </h3>
+          <p>
+           <br/>
+           - A personal user account
+           <br/>
+           - Full networking access for seamless connections
+           <br/>
+           - Complete access to skills and courses for self-development
+           <br/>
+           - Unlimited access to the E-Venture Marketplace
+           <br/>
+           - Social media monetization tools and features
+           <br/>
+           - Access to the Team feature for collaborations
+           <br/>
+           - A library of Ebooks at your fingertips
+           <br/>
+           - Full participation in BrainQuest for rewards
+           <br/>
+           <br/>
+           …and much more!
+          </p>
+          <a href="https://uphoria.pro/#">
+           Get Started
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <!-- Digital Assets -->
+      <div class="digital-wrapper">
+       <div class="digital-content">
+        <h2>
+         Digital Assets
+        </h2>
+        <div class="container">
+         <div class="text-content">
+          <h3>
+           Collections
+          </h3>
+          <p>
+           <br/>
+           Explore the World of Digital Assets
+           <br/>
+           Experience a marketplace like no other with NFTNOOK Uphoria’s exclusive NFT hub.
+           <br/>
+           <br/>
+           It empowers users to turn their digital content into unique, valuable assets while connecting with a global audience of creators and collectors. With seamless integration, NFTNOOK makes it easy for both beginners and experts to explore the world of digital ownership.
+          </p>
+         </div>
+         <div class="img-wrapper">
+          <img alt="" src="https://uphoria.pro/assets/img/digital-assets-img.png"/>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- AI  Assistant -->
+      <div class="digital-wrapper">
+       <div class="digital-content">
+        <h2>
+         AI  Assistant
+        </h2>
+        <div class="container">
+         <div class="text-content">
+          <h3>
+           AI Bot
+          </h3>
+          <p>
+           An AI assistant provides information, answers questions, offers suggestions, and helps with tasks, enhancing productivity and decision-making for users.
+          </p>
+         </div>
+         <div class="img-wrapper">
+          <img alt="" src="https://uphoria.pro/assets/img/ai-assistant-img.png"/>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="where-wrapper">
+       <div class="where-content">
+        <div class="where-box">
+         <h3>
+          Ability to Learn Diverse Skills on Our Platform
+         </h3>
+         <p>
+          Boost your learning journey with Uphoria! Gain access to comprehensive resources, interactive lessons, and personalized feedback to master a wide range of valuable skills.
+          <br/>
+          <br/>
+          Explore our skill programs now!
+         </p>
+         <a href="https://uphoria.pro/#">
+          Create an Account
+         </a>
+        </div>
+       </div>
+      </div>
+      <!-- Faq Section -->
+      <div class="faq-wrapper">
+       <div class="faq-content">
+        <div class="head">
+         <h2>
+          FAQs
+         </h2>
+         <p>
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+         </p>
+         <a href="https://uphoria.pro/#">
+          More FAQs
+         </a>
+        </div>
+        <ul>
+         <li>
+          <div class="head-content">
+           <h3>
+            Where can I get some?
+           </h3>
+           <i class="fa-solid fa-plus">
+           </i>
+          </div>
+          <p>
+           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+          </p>
+         </li>
+         <li>
+          <div class="head-content">
+           <h3>
+            Where can I get some?
+           </h3>
+           <i class="fa-solid fa-plus">
+           </i>
+          </div>
+          <p>
+           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+          </p>
+         </li>
+         <li>
+          <div class="head-content">
+           <h3>
+            Where can I get some?
+           </h3>
+           <i class="fa-solid fa-plus">
+           </i>
+          </div>
+          <p>
+           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+          </p>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- wrapper -->
+   <footer>
+    <div class="footer-wrapper">
+     <div class="main-section">
+      <div class="footer-logo">
+       <h3>
+        Uphoria
+       </h3>
+       <p>
+        With features like social media monetization, a vibrant marketplace, and diverse features, Uphoria provides value for everyone—whether you're an affiliate marketer, entrepreneur, or learner. Join us as we redefine success and create a brighter future together.
+       </p>
+       <div class="social">
+        <ul>
+         <li>
+          <a href="https://www.youtube.com/@Uphoriainv">
+           <i class="fab fa-youtube">
+           </i>
+          </a>
+         </li>
+         <li>
+          <a href="https://whatsapp.com/channel/0029VavX1OsCXC3JI26c6o26">
+           <i class="fab fa-whatsapp">
+           </i>
+          </a>
+         </li>
+         <li>
+          <a href="https://www.tiktok.com/@uphoriainv?_t=8r7Dbtd97rC&amp;_r=1">
+           <i class="fab fa-tiktok">
+           </i>
+          </a>
+         </li>
+         <li>
+          <a href="https://t.me/uphoriainv">
+           <i class="fab fa-telegram">
+           </i>
+          </a>
+         </li>
+         <li>
+          <a href="https://www.instagram.com/uphoriainv?igsh=bHgyNGIwdmwzbWd3">
+           <i class="fab fa-instagram">
+           </i>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div class="footer-nav">
+       <nav>
+        <ul>
+         <li>
+          <a href="https://uphoria.pro/">
+           home
+          </a>
+         </li>
+         <li>
+          <a href="https://uphoria.pro/post/about-us">
+           About Us
+          </a>
+         </li>
+         <li>
+          <a href="https://uphoria.pro/coupon">
+           Coupon
+          </a>
+         </li>
+        </ul>
+       </nav>
+      </div>
+     </div>
+     <div class="meta">
+      <a href="https://uphoria.pro/#">
+       Get Started
       </a>
+      <form action="https://uphoria.pro/">
+       <h5>
+        subscribe to joinletter
+       </h5>
+       <div class="fillable">
+        <input placeholder="Email Address" type="text"/>
+        <button>
+         <i class="fa-solid fa-magnifying-glass">
+         </i>
+        </button>
+       </div>
+      </form>
+     </div>
     </div>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Us</a></li>
-      <li><a href="#faqs">FAQs</a></li>
-      <li><a href="#contact">Contact Us</a></li>
-    </ul>
-  </nav>
-
-  <!-- Header Section -->
-  <header id="home">
-    <h1>Welcome to Jaykinggraphics</h1>
-    <p>A Professional Graphic Designer</p>
-    <p class="subtext">We are the simplest platform to generate quality leads for your brand and business and also earn passive income daily.</p>
-    <div class="auth-buttons">
-      <a href="#signup">Sign Up</a>
-      <a href="#login">Login</a>
-    </div>
-  </header>
-
-  <!-- About Section -->
-  <section class="section about" id="about">
-    <h2>About Me</h2>
-    <p>
-      Welcome to Jaykinggraphics! I'm a professional graphic designer specializing in branding, visual identity, and stunning flyer designs. I create bold and impactful visuals that make brands stand out.
-    </p>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section class="s
+   </footer>
+  </body>
+ </html>
+</frame-8ffc33ae926ed27ffa06fbc7ef780625@mhtml.blink>
