@@ -1,49 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage UI</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="logo">Uphoria</div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-900 scroll-smooth">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md fixed top-0 w-full z-50">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold">YourName</h1>
+        <nav class="space-x-4">
+          <a href="#home" class="hover:text-blue-600">Home</a>
+          <a href="#about" class="hover:text-blue-600">About</a>
+          <a href="#projects" class="hover:text-blue-600">Projects</a>
+          <a href="#services" class="hover:text-blue-600">Services</a>
+          <a href="#contact" class="hover:text-blue-600">Contact</a>
         </nav>
-        <div class="hamburger">&#9776;</div>
+      </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <h1>Welcome to Uphoria</h1>
-        <p>Your perfect design partner</p>
-        <a href="#" class="cta-btn">Get Started</a>
+    <section id="home" class="h-screen flex items-center justify-center text-center pt-20 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+      <div>
+        <h2 class="text-4xl font-bold mb-4">Hi, I'm YourName</h2>
+        <p class="text-lg">Creative Designer & Developer</p>
+      </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
-        <div class="feature">
-            <h2>Feature One</h2>
-            <p>High-quality design solutions</p>
+    <!-- About Section -->
+    <section id="about" class="max-w-4xl mx-auto py-20 px-4">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p>I’m a passionate designer and web developer who loves turning ideas into beautiful, functional websites.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-white py-20 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Projects</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Project Card -->
+          <div class="bg-gray-100 p-6 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-2">Project One</h3>
+            <p class="text-sm">Short description of what the project is about.</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-2">Project Two</h3>
+            <p class="text-sm">Short description of what the project is about.</p>
+          </div>
+          <div class="bg-gray-100 p-6 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-2">Project Three</h3>
+            <p class="text-sm">Short description of what the project is about.</p>
+          </div>
         </div>
-        <div class="feature">
-            <h2>Feature Two</h2>
-            <p>Modern and minimalistic UI</p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-4 bg-gray-50">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Services</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-2">Web Design</h3>
+            <p>Modern and responsive websites that look amazing on all devices.</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-2">Graphic Design</h3>
+            <p>Logos, banners, social media, and more — visually appealing designs.</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow">
+            <h3 class="text-xl font-semibold mb-2">UI/UX</h3>
+            <p>Clean, user-focused designs that are easy to navigate and interact with.</p>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
+        <p class="mb-6">Have a project in mind or just want to say hi? Reach out!</p>
+        <a href="mailto:your@email.com" class="inline-block bg-blue-600 text-white py-3 px-6 rounded-full hover:bg-blue-700">Contact Me</a>
+      </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>© 2025 Uphoria. All rights reserved.</p>
+    <footer class="bg-gray-800 text-white text-center py-6">
+      <p>&copy; 2025 YourName. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
